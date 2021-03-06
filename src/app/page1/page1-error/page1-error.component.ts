@@ -9,4 +9,8 @@ export class Page1ErrorComponent {
   triggerError(): void {
     throw new Error('page 1 (v3) error');
   }
+
+  unusedButWhatever(): void {
+    alert('1');
+  }
 }

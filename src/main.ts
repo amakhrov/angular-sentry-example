@@ -6,7 +6,7 @@ import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
 Sentry.init({
-  release: 'v3',
+  release: 'v4',
   dsn: 'https://641ebf2517044eb7a31871db089b127c@o543558.ingest.sentry.io/5664386',
   sampleRate: 1,
   // integrations: [
