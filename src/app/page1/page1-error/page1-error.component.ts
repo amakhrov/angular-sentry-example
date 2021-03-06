@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class Page1ErrorComponent {
   triggerError(): void {
-    throw new Error('page 1 error');
+    throw new Error('page 1 (v3) error');
   }
 }
